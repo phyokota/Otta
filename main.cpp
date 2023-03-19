@@ -2,9 +2,16 @@
 
 using namespace std;
 
+void TitleScreen();
+
 int main()
 {
-    
+    TitleScreen();
+    return 0;
+}
+
+void TitleScreen()
+{
     cout << R"(
     ▄██████▄      ███         ███        ▄████████ 
     ███    ███ ▀█████████▄ ▀█████████▄   ███    ███ 
@@ -15,5 +22,5 @@ int main()
     ███    ███     ███         ███       ███    ███ 
     ▀██████▀     ▄████▀      ▄████▀     ███    █▀                                       
     )";
-    return 0;
+    cout << "\n                 Press [Y] to Start";
 }
